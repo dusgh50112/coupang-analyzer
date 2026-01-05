@@ -1,12 +1,6 @@
-[gcp_service_account]
-type = "service_account"
-project_id = "founders-union"
-private_key_id = "ef5c58fbe0210d730740984f4701ed2e10c005a3"
-private_key = "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDwEK2pUDyIfdhk\n8NfG17mumL0GPJK9O9/NdXKSy9i3VwFlamca46Gtdn3xaa31ytXX66LGAjgldCp4\nJjsh4+NjlKkMtr2aCyqg58zUI+L6KkAza18UEs4aYgCDZ8M8YqaIK6HuEXyFs7EH\n8MwzLUvi4OXqggKREKnD9I7nuETlmLR5cWvSVBSsPp6dZKmbplw48yBIx7pY0G8G\nrpH+tj+5iYYUElawwTKIhrO3W7YD/9AzHFi74HNatxAZ+58ll0UApnD6xDGYKoVW\n8wEje+foHeCZ46HxAw4uc6L6lkNK4HS1R++cT3+mXYFTXKpEeCHtFU2qXyRRMq3W\nYGNzpf3nAgMBAAECggEAAJeR3Wpy6dy7dyRpzTfVz+CpxOvf9yiTujajHWPhlumB\nw6/A6CJBBOiOgqrikfDIfgyymPRwe6u3A2375rojc0iKx4zTY1ykdYUiHjpa2iV7\nbc4jGyjQyX8/IbOKlTZ16stS9M4WyTXsl2i76O1uAIUdqNGmztTR33eqaMzZB5s7\nDZenA/8iXnNgchdIFuHRg3r5f6swU8+v1kPemQI8GZtrvfz2J6M0twmIVMcfTf2Y\nZkAVhYJXVe/qVNieTZ8aK+zbLYabXUqZZOG/uhB4i5BFW893MEqNSKD7QUsotPwJ\n5AbHBhp/pUjaKYpwVl1+UrxPxJUyEOyPSy7mACoSsQKBgQD9nW7M0CZ53PKPSNmI\nfy5JUe+9PTS2Jpdv6J19AFdIXps+zQ4dpgY7E/ijnQYvVQVKqhpvS/ulO5IfxMvv\n1t8RP9vIukLPqwgnDWLzLIYSSZsWPuUHuQnt7XJeaKuSRlhu19/lA3NcsbkvCFTt\n+koXlH6Nd696KyikPs0n7coZcwKBgQDyUp/7xooqtbCsjTV2Q0Q2VZLLHI+9GQ/o\nszzY9QgXBVHbB9PIrCkaNITVbkkhtLs4Cn5zoMJ7jc3S6IEYelKzEfz84io99t6H\ncj1mSWnXIkodFH6TKgcjaVQo7t32N7CK+m0tnZGOVNSgG1kJzRteO06UPGC5Tazt\n5aYbcQz8vQKBgE+w1W0UBtMKA0nUuU3zsKanUW6kOdj2nWUzsbDil4qM97kvE71r\nOs/7gYhfwd7Dl2sTskTAmm0cH9lNrEtLuEIiT7xuEqpQcrpasXn5xpMef9Xoo2ze\nzujtUJ+rwiWvZwBFYvwCLpC045yMwKsal4d7SJzJO+FmiFm7xhlC1dtTAoGAAN5w\n+msk1bBfGM9M0Ma++N7nrtjEXy4202PJJRID3GlFeN6XUNHlN9XWYBmMI5XNUg8f\nkvSRnfXNNiNlSxwtLb0zxghdlGlNNPkg5TwAKChUUbRgG9D7w5G+HoN0wkxC0szB\nFXfKLNN7C7PtZs6YeYcG6hspUaDIrPW02cZXAJUCgYAUwFhBGc/hQ/RlXHBdSm3Y\nBrZZl9lHzmo+SI2xAFqcn+QIWK0WmJ8HgmRBBh0gV0SNG6vuFQ2nPI9JU/uA3PCe\nb2OE2KT67Tfoz3NgsqA7O8MC5qzgVLQankietaA1fbhemy1UgKzD4SOQnFd0TWPg\nkdJs2U+V/HYSIqyjr2LgJQ==\n-----END PRIVATE KEY-----\n"
-client_email = "dusgh426501@founders-union.iam.gserviceaccount.com"
-client_id = "109450115231752310004"
-auth_uri = "https://accounts.google.com/o/oauth2/auth"
-token_uri = "https://oauth2.googleapis.com/token"
-auth_provider_x509_cert_url = "https://www.googleapis.com/oauth2/v1/certs"
-client_x509_cert_url = "https://www.googleapis.com/robot/v1/metadata/x509/dusgh426501%40founders-union.iam.gserviceaccount.com"
-universe_domain = "googleapis.com"
+gspread
+google-auth
+pandas
+openpyxl
+Pillow
+requests
