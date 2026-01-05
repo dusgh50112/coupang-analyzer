@@ -1,15 +1,16 @@
 import streamlit as st
 import pandas as pd
 
+# 페이지 설정
 st.set_page_config(page_title="쿠팡 주문 분석기", layout="wide")
 st.title("📊 쿠팡 주문 엑셀 분석기")
 
-# 1️⃣ 파일 업로드
+# 1️⃣ 파일 업로드 UI
 uploaded_file = st.file_uploader("쿠팡 주문 엑셀 파일 선택 (.xlsx)", type=["xlsx"])
 
 if uploaded_file is not None:
     try:
-        # 2️⃣ 엑셀 불러오기
+        # 2️⃣ 업로드된 엑셀 읽기
         df = pd.read_excel(uploaded_file)
 
         # 3️⃣ 필요한 컬럼만 선택
@@ -25,7 +26,7 @@ if uploaded_file is not None:
             총매출=("매출", "sum")
         ).reset_index()
 
-        # 6️⃣ 웹 화면에 결과 보여주기
+        # 6️⃣ 화면에 결과 표시
         st.subheader("총 매출")
         st.write(f"💰 {total_sales:,} 원")
 
@@ -42,6 +43,6 @@ if uploaded_file is not None:
         )
 
     except Exception as e:
-        st.error(f"⚠️ 엑셀 파일을 읽는 중 오류가 발생했습니다: {e}")
+        st.error(f"⚠️ 엑셀 읽기 중 오류: {e}")
 else:
     st.info("⬆️ 먼저 쿠팡 주문 엑셀 파일을 업로드해주세요.")
